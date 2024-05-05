@@ -31,3 +31,4 @@ GitPython
 torchsde
 safetensors
 psutil; sys_platform == 'darwin'
+aiohttp>=3.9.4 # not directly required, pinned by Snyk to avoid a vulnerability

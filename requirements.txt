@@ -31,3 +31,5 @@ GitPython
 torchsde
 safetensors
 psutil; sys_platform == 'darwin'
+filelock>=3.20.1 # not directly required, pinned by Snyk to avoid a vulnerability
+fonttools>=4.61.0 # not directly required, pinned by Snyk to avoid a vulnerability
